@@ -57,7 +57,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
     testImplementation "org.mockito:mockito-core:5.9.0"
-    testImplementation "org.mockito:mockito-junit-jupiter:5.9.0"
+    testImplementation "org.mockito:mockito-junit-jupiter:5.11.0"
     testFixturesAnnotationProcessor 'org.projectlombok:lombok'
     testFixturesImplementation 'org.springframework.security:spring-security-test'
     testFixturesImplementation 'org.springframework.security:spring-security-oauth2-resource-server'

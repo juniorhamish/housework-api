@@ -24,4 +24,8 @@ public class UsersService {
   public List<User> findScopedUsers(String emailAddress) {
     return singletonList(usersRepository.findByEmailAddress(emailAddress));
   }
+
+  public void delete(String id) {
+    usersRepository.deleteById(id);
+  }
 }
